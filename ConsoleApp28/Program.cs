@@ -11,7 +11,7 @@ namespace ConsoleApp28
         static void Main(string[] args)
         {//Zadanie 6.:
             int i, n, j;
-            Console.WriteLine("Podaj liczbę gwiazdek w wysokości trójkąta (więszką od 1) n=");
+            Console.WriteLine("Tell me height of the triangle you want: (greater than 0 please) n=");
             n = Convert.ToInt32(Console.ReadLine());
             for (i=1; i<=n; i++)
             {
